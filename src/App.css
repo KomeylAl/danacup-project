@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-vazir: "Vazir";
+
+  --color-primary: #121063;
+  --color-secondary: #3ab7bf;
+  --color-button: #78dcca;
+}
+
+@font-face {
+  font-family: "Vazir";
+  src: url(/fonts/vazir.ttf);
+}
+
+html,
+body,
+:root {
+  font-family: Vazir;
+  /* direction: rtl; */
+}
