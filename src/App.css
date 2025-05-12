@@ -17,5 +17,5 @@ html,
 body,
 :root {
   font-family: Vazir;
-  /* direction: rtl; */
+  direction: rtl;
 }
