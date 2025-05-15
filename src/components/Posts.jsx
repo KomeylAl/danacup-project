@@ -15,7 +15,7 @@ const Posts = () => {
         .then((response) => setPosts(response.data))
         .catch((error) => {
           console.log(error);
-          setError(error.message)
+          setError(error.message);
         })
         .finally(() => setIsLoading(false));
     };

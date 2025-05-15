@@ -1,10 +1,6 @@
 import "./App.css";
-import { useEffect, useState } from "react";
-import Post from "./components/Post";
 import { Outlet } from "react-router-dom";
 import Header from "./components/Header";
-import Posts from "./components/Posts";
-import Auth from "./components/Auth";
 
 function App() {
 
